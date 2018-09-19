@@ -1,0 +1,95 @@
+#app {
+  font-family: helvetica;
+}
+
+/* .tabs:hover {
+  box-shadow: grey 0px 1px 8px;
+
+}
+.tabs {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  vertical-align: 0em;
+  position: relative;
+  text-transform: uppercase;
+  height: 40px;
+  cursor: default;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 22px;
+  letter-spacing: 0.0625em;
+  text-align: justify;
+} */
+/* .specificCatEntry {
+  float: right;
+  border-style: solid;
+  border-width: 1px 1px 1px 0px;
+} */
+/* .shopDrops {
+  position: absolute;
+  display: flex;
+  flex-direction: row-reverse;
+  
+} */
+/* .categoryEntry {
+  padding-bottom: 1em;
+  border-style: solid;
+  border-width: 0px 1px 0px 1px;
+} */
+/* .categoryEntry:hover {
+  font-weight: bold;
+} */
+.NavDropDown {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.lovesDrop {
+  position: absolute;
+  z-index: 1;
+  /* top: 100%; */
+  /* left: 20p; */
+  font-weight: 700;
+  font-size: 11px;
+  color: #fff;
+  background-color: #000;
+  /* -webkit-transform: translate(-50%, 8px);
+  -ms-transform: translate(-50%, 8px);
+  transform: translate(-50%, 8px); */
+  /* display: none; */
+  padding-top: 0.375em;
+  padding-bottom: 0.375em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  /* white-space: nowrap; */
+  border-radius: 4px;
+  font-size: 12px;
+}
+/* .shop {
+  padding-top: 22px;
+} */
+/* h1 {
+  position: relative;
+} */
+a {
+  color: black;
+  text-decoration: none;
+}
+.bottomBar {
+  display: flex;
+}
+/* #search {
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  width: 200px;
+  height: 40px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #000;
+  background-color: #fff;
+  border-width: 1px;
+  border-radius: 4px;
+  border-color: #ccc;
+} */
