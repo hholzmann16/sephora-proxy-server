@@ -35,5 +35,5 @@ app.get("/review", (req, res) => {
 });
 
 app.listen(3001, () => {
-  console.log("We in dis bitch");
+  console.log("Server is up what what!");
 });
