@@ -22,14 +22,14 @@ app.get("/api", (req, res) => {
 
 app.get("/api/mydb", (req, res) => {
   axios
-    .get("http://localhost:3000/api/mydb", req.params)
+    .get("http://localhost:7777/api/mydb", req.params)
     .then(d => res.send(d.data))
     .catch(e => res.send(e));
 });
 
 app.get("/review", (req, res) => {
   axios
-    .get("http://localhost:5000/review", req.params)
+    .get("http://localhost:3000/review", req.params)
     .then(d => res.send(d.data))
     .catch(e => res.send(e));
 });
